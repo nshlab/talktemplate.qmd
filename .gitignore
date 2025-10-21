@@ -5,3 +5,5 @@ deck_*.pdf
 *.otter*
 *_cache/
 *_files/
+
+**/*.quarto_ipynb

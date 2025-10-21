@@ -6,17 +6,12 @@ format:
     self-contained: false
     slide-number: true
     preview-links: auto
-    include-in-header:
-      - file: headers/mathjax.html
     logo: figs/hsph.png
     footer: "Conference or seminar"
     smaller: false
     incremental: false
     fig-width: 6
     fig-asp: 0.618
-html-math-method:
-  method: mathjax
-  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 author:
   - name: Nima Hejazi
     orcid: 0000-0002-7127-2789
@@ -40,8 +35,8 @@ csl: https://www.zotero.org/styles/journal-of-the-royal-statistical-society
   - $A$ is
   - $Y$ is
 
-- Parameter: Average treatment effect (ATE), $\theta^{\text{MTP}} =
-  \E[Y^{A_{\delta}} - Y]$
+- Parameter: Average treatment effect (ATE),
+  $\theta^{\text{MTP}} = \E[Y^{A_{\delta}} - Y]$
   - $Y^{A_{\delta}}$: potential outcome for
 :::
 
