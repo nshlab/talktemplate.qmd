@@ -1,3 +1,4 @@
+.DS_Store
 /.quarto/
 index.html
 deck_*.html
@@ -5,5 +6,6 @@ deck_*.pdf
 *.otter*
 *_cache/
 *_files/
+mathjax-config.js
 
 **/*.quarto_ipynb
