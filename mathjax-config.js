@@ -47,11 +47,11 @@ window.MathJax = {
     }
   },
   chtml: {
-    font: 'mathjax-modern'
+    font: 'mathjax-newcm'
   },
   startup: {
     ready: () => {
-      console.log('MathJax is loaded and ready with font: mathjax-asana (Asana Math)');
+      console.log('MathJax is loaded and ready with font: mathjax-newcm');
       MathJax.startup.defaultReady();
     }
   }
